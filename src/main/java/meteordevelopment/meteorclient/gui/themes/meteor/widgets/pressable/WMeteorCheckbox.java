@@ -9,6 +9,7 @@ import meteordevelopment.meteorclient.gui.renderer.GuiRenderer;
 import meteordevelopment.meteorclient.gui.themes.meteor.MeteorGuiTheme;
 import meteordevelopment.meteorclient.gui.themes.meteor.MeteorWidget;
 import meteordevelopment.meteorclient.gui.widgets.pressable.WCheckbox;
+import meteordevelopment.meteorclient.utils.render.color.Color;
 import net.minecraft.util.math.MathHelper;
 
 public class WMeteorCheckbox extends WCheckbox implements MeteorWidget {
@@ -27,6 +28,7 @@ public class WMeteorCheckbox extends WCheckbox implements MeteorWidget {
         animProgress = MathHelper.clamp(animProgress, 0, 1);
 
         renderBackground(renderer, this, pressed, mouseOver);
+        if (checked) renderer.quad(x, y, width, height, theme.checkboxColor.get());
 
         if (animProgress > 0) {
             double cs = (width - theme.scale(2)) / 1.75 * animProgress;
