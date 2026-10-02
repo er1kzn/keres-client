@@ -4,6 +4,7 @@
   "id": "keres-client",
   "version": "${version}",
   "description": "Keres Client - utility client",
+  "icon": "assets/meteor-client/keres.png",
   "authors": [
     "er1kzn"
   ],
