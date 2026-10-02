@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
-  "id": "meteor-client",
+  "name": "Keres Client",
+  "id": "keres-client",
   "version": "${version}",
   "description": "Based utility mod.",
   "authors": [
