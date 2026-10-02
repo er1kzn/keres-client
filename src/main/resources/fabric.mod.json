@@ -3,20 +3,14 @@
   "name": "Keres Client",
   "id": "keres-client",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "Keres Client - utility client",
   "authors": [
-    "MineGame159",
-    "squidoodly",
-    "seasnail"
+    "er1kzn"
   ],
   "contact": {
-    "homepage": "https://meteorclient.com",
-    "issues": "https://github.com/MeteorDevelopment/meteor-client/issues",
-    "sources": "https://github.com/MeteorDevelopment/meteor-client",
-    "discord": "https://meteorclient.com/discord"
+    "homepage": "https://github.com/er1kzn/keres-client"
   },
   "license": "GPL-3.0",
-  "icon": "assets/meteor-client/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
