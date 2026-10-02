@@ -409,7 +409,6 @@ public class CrystalAura extends Module {
     public final Setting<List<Module>> pauseModules = sgPause.add(new ModuleListSetting.Builder()
         .name("pause-modules")
         .description("Pauses while any of the selected modules are active.")
-        .defaultValue(BedAura.class)
         .build()
     );
 
