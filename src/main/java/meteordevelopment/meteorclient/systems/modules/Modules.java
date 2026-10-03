@@ -549,7 +549,6 @@ public class Modules extends System<Modules> {
         add(new BetterChat());
         add(new DiscordPresence());
         add(new InventoryTweaks());
-        add(new Notebot());
         add(new PacketCanceller());
         add(new Swarm());
     }

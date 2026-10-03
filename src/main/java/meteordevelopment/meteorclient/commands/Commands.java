@@ -41,7 +41,6 @@ public class Commands {
         add(new CommandsCommand());
         add(new InventoryCommand());
         add(new NbtCommand());
-        add(new NotebotCommand());
         add(new PeekCommand());
         add(new EnderChestCommand());
         add(new ProfilesCommand());
