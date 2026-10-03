@@ -550,7 +550,6 @@ public class Modules extends System<Modules> {
         add(new DiscordPresence());
         add(new InventoryTweaks());
         add(new Notebot());
-        add(new Notifier());
         add(new PacketCanceller());
         add(new Swarm());
     }
